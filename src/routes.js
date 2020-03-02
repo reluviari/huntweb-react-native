@@ -13,14 +13,14 @@ const NavStack = createStackNavigator(
       screen: Product,
     },
   },
-  {
-    navigationOptions: {
-      headerStyle: {
-        backgroundColor: '#DA552F',
-      },
-      headerTintColor: '#FFF',
-    },
-  },
+  // {
+  //   navigationOptions: {
+  //     headerStyle: {
+  //       backgroundColor: '#DA552F',
+  //     },
+  //     headerTintColor: '#FFF',
+  //   },
+  // },
 );
 
 const App = createAppContainer(NavStack);

@@ -5,6 +5,10 @@ import api from '../services/api';
 export default class Main extends Component {
   static navigationOptions = {
     title: 'Reluviaris Hunt',
+    headerStyle: {
+      backgroundColor: '#DA552F',
+    },
+    headerTintColor: '#FFF',
   };
 
   state = {
@@ -21,6 +25,8 @@ export default class Main extends Component {
     const response = await api.get(`/products?page=${page}`);
 
     const {docs, ...productInfo} = response.data;
+
+    // console.log(docs);
 
     this.setState({
       docs: [...this.state.docs, ...docs],
