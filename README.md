@@ -1,4 +1,4 @@
-# Recycling learning with React Native  
+# Recycling learning with React Native
 
 ## Criação: 02 de março de 2020
 ## Prática : @reluviari
