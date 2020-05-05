@@ -75,7 +75,4 @@
 #### Aula 11. Detalhes com WebView
 1. Exibir conteúdo em uma nova página mas sem sair da nossa aplicação.
 
-Aplicação com React Native terminada. Utilizado navegação, criado duas páginas, stateless component react native, componentes em classes, consumo de API Rest, FlastList, scroll infinito, estilização. 
-
-:. Do curso `React Native` da Station Rocketseat - Starter.
-Por Diego Fernandes : https://station.rocketseat.com.br/courses/starter 95
+Aplicação com React Native terminada. Utilizado navegação, criado duas páginas, stateless component react native, componentes em classes, consumo de API Rest, FlastList, scroll infinito, estilização.
